@@ -4,9 +4,12 @@ Dane has been a happy goat owner for over a year now, and is thinking about expa
 
 ## Setup
 
-After cloning (NOT FORKING!!) this repo down, make sure you have switched into your own branch with 
+After forking and cloning (note, for THIS code challenge practice we are forking, that may not always be the case) this repo down.
+
+Then, after it is cloned, open it in your vs code. Create and switch into a your own named branch with 
+
 ```
-git checkout -b your-name
+git checkout -b your-name-mini-code-challenge
 ```
 
 Read through the `README.md` in it's ENTIRETY (at least twice) before working on your code!
@@ -41,3 +44,7 @@ Goats love attention...let's connect our `Brush goat` button with an event liste
 Oh no! Toph climbed onto a play kitchen on Dane's back porch and started eating his weather stripping off his window (true story)! We need to get that `Toggle goat` button connected to another event listener that lets Dane know she has been a `BAD GOAT`!
 
 Bonus: After some time to cool down Dane realized that he may have over-reacted and wants to make ammends...can you make it so the `Toggle goat` button can switch back and forth between `Good goat` and `BAD GOAT` easily?
+
+## Submission
+
+When you have completed the deliverables, do a `git add` and a `git commit`, then push it to your
