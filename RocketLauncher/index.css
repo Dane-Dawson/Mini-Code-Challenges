@@ -1,0 +1,72 @@
+.rocket-launch-wrapper{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.launch-card{
+    margin: auto;
+    width: 25%;
+    height: 10%;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: snow;
+    opacity: .95;
+}
+
+.rocket-info{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(231, 17, 17);
+    font-size: 20px;
+}
+
+.rocket-wrapper{
+    position: relative;
+    width: 80vw;
+}
+
+.rocket-img{
+    position: absolute;
+    top: 125px;
+    left: -55px;
+
+}
+
+.launch-pad-img{
+    position: absolute;
+    top: 10px;
+}
+
+.button-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.tests-button{
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.upgrade-button{
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.launch-button{
+    background-color: rgb(231, 17, 17);;
+    color: white;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+
+
+
