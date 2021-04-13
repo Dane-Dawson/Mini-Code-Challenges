@@ -1,22 +1,25 @@
 body{
-    background-image: url("./background.jpeg");
-    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
     /* padding-left: 200px; */
 }
 
 .rocket-launch-wrapper{
-    width: 100vw;
+    background-image: url("./background.jpeg");
+    background-size: cover;
+    border-radius: 20px;
+    width: 1000px;
+    height: 80vh;
     display: flex;
     justify-content: center;
 }
 
 .launch-card{
     margin: auto;
-    width: 25%;
-    height: 10%;
+    width: 45%;
+    height: 80%;
     border-style: solid;
     border-width: 2px;
     border-radius: 10px;
@@ -24,7 +27,7 @@ body{
     text-align: center;
     background-color: snow;
     opacity: .95;
-    margin-left: 200px;
+    margin-left: 75px;
 }
 
 .rocket-info{
@@ -36,6 +39,7 @@ body{
 .rocket-wrapper{
     position: relative;
     width: 80vw;
+    top: 15vh;
     margin-left: 15vw;
 }
 
@@ -55,7 +59,7 @@ body{
 .button-wrapper{
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 50%;
 }
 
 .tests-button{
