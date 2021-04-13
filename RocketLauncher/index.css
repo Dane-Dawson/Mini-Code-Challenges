@@ -1,7 +1,16 @@
+body{
+    background-image: url("./background.jpeg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 200px; */
+}
+
 .rocket-launch-wrapper{
     width: 100vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .launch-card{
@@ -15,6 +24,7 @@
     text-align: center;
     background-color: snow;
     opacity: .95;
+    margin-left: 200px;
 }
 
 .rocket-info{
@@ -26,12 +36,14 @@
 .rocket-wrapper{
     position: relative;
     width: 80vw;
+    margin-left: 15vw;
 }
 
 .rocket-img{
     position: absolute;
     top: 125px;
     left: -55px;
+    color: white;
 
 }
 
