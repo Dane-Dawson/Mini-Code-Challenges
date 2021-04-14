@@ -3,26 +3,29 @@ body{
     justify-content: center;
     align-items: center;
     background-color: black;
-    /* padding-left: 200px; */
+    height: 100vh;
+    overflow: hidden;
 }
 
 .rocket-launch-wrapper{
     background-image: url("./background.jpeg");
     background-size: cover;
     border-radius: 20px;
-    width: 1000px;
-    height: 80vh;
+    width: 1100px;
+    height: 600px;
     display: flex;
     justify-content: center;
 }
 
 .launch-card{
+    position: relative;
+    top: -20px;
     background-color: snow;
     opacity: .95;
     border: 2px solid;
     border-radius: 10px;
     text-align: center;
-    line-height: 1.2em; 
+    line-height: 25px; 
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -30,6 +33,12 @@ body{
     max-height: 500px;
     min-width: 250px;
     max-width: 300px;
+    margin-left: 40px;
+}
+
+.rocket-info{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(231, 17, 17);
 }
 
 hr {
@@ -40,57 +49,61 @@ hr {
     line-height: .2em;
 }
 
-.rocket-info{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(231, 17, 17);
-}
-
-.rocket-wrapper{
-    position: relative;
-    width: 80vw;
-    top: 15vh;
-    margin-left: 15vw;
-}
-
-.rocket-img{
-    position: absolute;
-    top: 125px;
-    left: -55px;
-    color: white;
-
-}
-
-.launch-pad-img{
-    position: absolute;
-    top: 10px;
-}
-
 .button-wrapper{
+    position: absolute;
     display: flex;
-    flex-direction: column;
-    width: 50%;
+    flex-flow: wrap;
+    bottom: -140px;
+    left: -25px;
+    width: 350px;
+    min-width: 300px;
+    height: 130px;
+}
+
+button {
+    color: white;
+    border-radius: 15px;
+    width: 150px;
+    height: 45px;
 }
 
 .tests-button{
     background-color: blue;
-    color: white;
-    border-radius: 15px;
-    margin: 10px;
 }
 
 .upgrade-button{
     background-color: blue;
-    color: white;
-    border-radius: 15px;
-    margin: 10px;
 }
 
 .launch-button{
-    background-color: rgb(231, 17, 17);;
-    color: white;
-    border-radius: 15px;
-    margin: 10px;
+    position: relative;
+    left: 75px;
+    background-color: rgb(231, 17, 17);
 }
+
+.rocket-wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+}
+
+.rocket-img{
+    position: absolute;
+    height: 300px;
+    bottom: 65px;
+    right: 313.5px;
+    color: white;
+}
+
+.launch-pad-img{    
+    position: absolute;
+    bottom: 40px;
+    height: 350px;
+}
+
 
 
 
