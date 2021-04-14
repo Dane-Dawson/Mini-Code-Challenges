@@ -32,6 +32,10 @@ body{
     max-width: 300px;
 }
 
+hr {
+    width: 90%
+}
+
 .launch-card p{
     line-height: .2em;
 }
